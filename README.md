@@ -31,6 +31,6 @@ python my_python_program.py --arg1 --arg2
 clang++ my_cpp_program.cpp -o final_build.out
 ```
 
-3. Open `nvim` in the current directory and press `F5` (or run `:SkiiRun`).
+3. Open `nvim` in the current directory and press `F5` (or run `:SkiiRun`). Press any key to close the terminal split.
 
 ![Alt Text](resources/mg1.gif)
