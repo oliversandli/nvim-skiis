@@ -16,4 +16,4 @@ class Skiis(object):
                 conf_file = f.read()
         except FileNotFoundError:
             return
-        self.nvim.command(f"!{conf_file[:-1]}")
+        self.nvim.command_output(f"!{conf_file[:-1]}")
