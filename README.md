@@ -32,3 +32,5 @@ clang++ my_cpp_program.cpp -o final_build.out
 ```
 
 3. Open `nvim` in the current directory and press `F5` (or run `:SkiiRun`).
+
+![Alt Text](readme_media/mg1.gif)
