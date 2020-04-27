@@ -12,7 +12,7 @@ class Skiis(object):
     def exec_conf(self):
         """exec_conf"""
         try:
-            with open(".skiconf", "r") as f:
+            with open(".skiiconf", "r") as f:
                 conf_file = f.read()
         except FileNotFoundError:
             return
