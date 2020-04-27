@@ -9,11 +9,13 @@ Clone using git:
 git clone https://github.com/oliversandli/nvim-skiis.git
 ```
 
-Run install script:
+Install in your [remote plugin directory](https://neovim.io/doc/user/remote_plugin.html):
 ```bash
 cd nvim-skiis
-./install.sh
+cp skiis.py ~/.config/nvim/rplugin/python3/skiis.py # substitute your remote plugin directory here
 ```
+
+Update remote plugins in `neovim` with the `:UpdateRemotePlugins` command.
 
 ## How to Use
 
