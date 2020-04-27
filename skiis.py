@@ -5,8 +5,8 @@ import pynvim
 
 @pynvim.plugin
 class Skiis(object):
-    def __init__(self, vim):
-        self.vim = vim
+    def __init__(self, nvim):
+        self.nvim = nvim
 
     @pynvim.command("SkiiRun", sync=True)
     def exec_conf(self):
@@ -16,4 +16,4 @@ class Skiis(object):
                 conf_file = f.read()
         except FileNotFoundError:
             return
-        self.vim.command(f"!{conf_file}")
+        self.nvim.command(f"!{conf_file}")
