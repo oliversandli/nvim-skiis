@@ -28,7 +28,7 @@ cp skiis.py ~/.config/nvim/rplugin/python3/skiis.py # substitute your remote plu
 
 Update remote plugins in `neovim` with the `:UpdateRemotePlugins` command.
 
-## How to Use
+## Usage
 
 1. (Optional) Add a keyboard shortcut to `SkiiRun` in your `init.vim`.
 ```vimscript
