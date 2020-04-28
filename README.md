@@ -1,6 +1,15 @@
 # nvim-skiis
 
+![python](https://img.shields.io/badge/python-3.6-brightgren)
+[![PEP8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
+![license](https://img.shields.io/badge/license-MIT-blue)
+
 A simple [neovim](https://neovim.io/) plugin for running a predefined terminal command.
+
+## Requirements
+
+* Python version 3.6 or higher.
+* [pynvim](https://github.com/neovim/pynvim)
 
 ## Installation
 
