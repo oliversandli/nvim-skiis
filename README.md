@@ -45,3 +45,7 @@ clang++ my_cpp_program.cpp -o final_build.out
 3. Open `nvim` in the current directory and press `F5` (or run `:SkiiRun`). Press any key to close the terminal split.
 
 ![Alt Text](resources/mg1.gif)
+
+## Contributing
+
+Issues and PR's welcome!
